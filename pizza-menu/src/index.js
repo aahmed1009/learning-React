@@ -10,7 +10,12 @@ function App() {
 }
 
 function Pizaa() {
-  return <h1>hello pizza</h1>;
+  return (
+    <div>
+      <h2>hello pizaa</h2>
+      <img src="pizzasimages/spinaci.jpg" alt="pizza1" />
+    </div>
+  );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
